@@ -1,0 +1,90 @@
+.choose{
+	
+	margin-top: 103px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.choose .type{
+	margin-right: 20px;
+}
+.choose span{
+	display: inline-block;
+	margin-right: 15px;
+}
+.active{
+	color: #ebe87c;
+}
+
+.goodsitem{
+	position: relative;
+	
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.spa-list{
+	width: 20%; 
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 15px;
+	height:400px;
+	background-color: #eee;
+	overflow: hidden;
+}
+/* 分割线样式 */
+.dividing-line{
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	color: peachpuff;
+	overflow: hidden;
+}
+
+.spa-list-img{
+	width: 100%;
+	height: 230px;
+	border-radius:5px 5px;
+	overflow: hidden;
+	text-align: center;
+}
+.spac-list-img img{
+	
+	width: 100%;
+}
+.price{
+	padding: 0 5px;
+	color: #e69e21;
+}
+
+.btn-learnmore{
+	width: 60px;
+	border: 1px solid peachpuff;
+	border-radius: 15px;
+	color: peachpuff;
+	text-align: center;
+	background-color: #fff;
+}
+.be-replace{
+		
+		padding: 0 2px;
+	}
+	.be-replace p{
+		color: #6c6c6c;
+	}
+	.be-replace p:first-child{
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 500;
+		color: #000;
+	}
+	.btn-joincar{
+		margin-left: 50px;
+		padding: 5px;
+		border: 0;
+		background-color: darkgreen;
+		color: #fff;
+	}
+	

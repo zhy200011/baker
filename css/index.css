@@ -1,0 +1,65 @@
+
+
+body{
+
+	background: url(../img/pic/click/indexBg.jpg) no-repeat center center;
+	background-size: cover;
+	/* opacity: 0.7; */
+	
+}
+#wrap{
+	
+	width: 100%;
+	margin: 350px auto;
+
+}
+.go{
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+	padding:0 10px;
+}
+.choose{
+	
+	width: 100px;
+	height: 30px;
+	padding: 0 10px;
+}
+
+/* 提交 */
+.btn{
+	
+	float: right;
+	border: 0;
+	height: 30px;
+	width: 50px;
+
+}
+/* 城市 */
+.city{
+	display: flex;
+	justify-content: space-evenly;
+	width:75%;
+	margin:20px auto;
+	font-size: 20px;
+	color: peachpuff;
+}
+.city-item{
+	width: 60px;
+	margin:5px 10px;
+	text-align: center;
+	border: 1px solid peachpuff;
+	border-radius: 5px;
+	
+}
+/* 激活状态 */
+.active{
+	color: #FFFFFF;
+	background-color: peachpuff;
+	width: 70px;
+}
+.footer{
+	position: absolute;
+	bottom: -300px;
+	
+}

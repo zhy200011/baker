@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1713577",
+      "name": "糖",
+      "font_class": "tang",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "2815734",
+      "name": "下一个",
+      "font_class": "xiayige",
+      "unicode": "e553",
+      "unicode_decimal": 58707
+    },
+    {
+      "icon_id": "3195585",
+      "name": "豆子",
+      "font_class": "douzi",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "4934362",
+      "name": "五谷浆",
+      "font_class": "wugujiang",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5083427",
+      "name": "雪",
+      "font_class": "xue",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5157623",
+      "name": "叉子",
+      "font_class": "chazi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10487555",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "12184884",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "14313189",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "15999545",
+      "name": "水果瓶",
+      "font_class": "shuiguoping",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "21748445",
+      "name": "蛋糕",
+      "font_class": "dangao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    }
+  ]
+}

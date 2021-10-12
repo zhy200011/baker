@@ -1,0 +1,150 @@
+.wrap-buttom{
+	padding: 0 3%;
+}
+.wrap-scanle{
+	margin-top: 103px;
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	
+}
+.scanle-img{
+	width: 80%;
+}
+.cebian{
+	width: 16%;
+	padding: 0 2%;
+}
+.cebian-img img{
+	margin-top: 5px;
+	width: 100%;
+	
+}
+.scanle-active{
+	border: 2px #b59c9c solid;
+}
+.miaoshu{
+	height: 450px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom: 1px solid #6fb867;
+}
+.miaoshu-left{
+	width: 40%;
+}
+.miaoshu-right{
+	width: 40%;
+	padding-right: 20%;
+}
+/* 描述左 */
+.miaoshu-left>span:nth-child(2){
+	color: rgb(255, 87, 82);
+}
+.miaoshu-biaoqian{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 50px;
+}
+.miaoshu-item{
+	margin-left: 10px;
+	height: 20px;
+	padding: 2px 5px;
+	color:rgb(255, 127, 110);
+	text-align: center;
+	border-radius: 10px;
+	border: 1px rgb(255, 127, 110) solid;
+}
+.chenfen{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: 50px;
+	
+}
+.chenfen .chenfen-item{
+	margin-left: 5px;
+}
+.mubiao{
+	height: 60px;
+	
+}
+.mubiao span{
+	line-height: 25px;
+}
+.baocun{
+	height: 40px;
+}
+.baocun>span:first-child{
+	color:#3498DB ;
+}
+.tiandu span{
+	color: rgb(255, 127, 110);
+}
+.tiandu span:nth-child(2),.tiandu span:nth-child(6),.tiandu span:nth-child(7){
+	color:black ;
+}
+/* 描述右 */
+.miaoshu-right h3{
+	height: 50px;
+	line-height: 50px;
+	color:  rgb(255, 127, 110);
+}
+.details{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	color:  rgb(255, 182, 157);
+}
+.details .daxiao{
+	float: left;
+	width: 33%;
+	height: 20px;
+	overflow: hidden;
+}
+.tuan{
+	margin: 20px 0px;
+	display: flex;
+	align-items: center;
+	height: 30px;
+	
+}
+.tuan div{
+	margin-left: 5px;
+	height: 20px;
+	padding: 5px;
+	border: 1px solid #63A35C;
+}
+/* 勾选激活 */
+.tuan .active{
+	border: 2px solid #284225;
+}
+
+.tuan .img{
+	width: 30px;
+	height: 30px;
+}
+.tuan .img img{
+	width: 30px;
+	height: 30px;
+}
+.btn{
+	height: 50px;
+	line-height: 50px;
+}
+.btn button{
+	width: 100px;
+	padding: 5px 8px;
+	background-color: #e2e2e2;
+	border: 0;
+}
+.btn .moren{
+	background-color: #375b33;
+	color: #FFFDEF;
+}
+.other-all{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}

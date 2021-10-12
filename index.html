@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>芝士面包店</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/loading.css"/>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div v-if="!isActive" class="loading" ></div>
+			<div v-if="isActive" id="go" class="go">
+				<select name="position" class="choose" v-model="chooseCity">
+					<option :value="chooseCity">{{chooseCity}}</option>
+					
+				</select>
+				<button  type="button" @click="goindex" class="btn" >前往</button>
+			</div>
+			<div class="city">
+				<div
+				class="city-item"
+				:class="[clickId==index+1?'active':'']"
+				  @click="choose(i.name,i.id)" 
+
+				v-for="(i,index) in city">
+					{{i.name}}
+				</div>
+			
+			</div>
+		
+		</div>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>	
+	</body>
+</html>

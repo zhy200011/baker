@@ -1,0 +1,79 @@
+
+
+/* 横幅 */
+.banner{
+	margin: 103px auto;
+	width: 100%;
+	height: 400px;
+	background:url(../img/images/index/xinpin/banner.jpg)  no-repeat  center;
+	overflow: hidden;
+}
+.ertong-banner{
+	margin: 103px auto;
+	width: 100%;
+	height: 400px;
+	background:url(../img/images/index/ertong/banner.jpg)  no-repeat  center;
+	overflow: hidden;
+}
+.juhui-banner{
+	margin: 103px auto;
+	width: 100%;
+	height: 400px;
+	background:url(../img/images/index/juhui/banner.jpg)  no-repeat  center;
+	overflow: hidden;
+}
+.shengri-banner{
+	margin: 103px auto;
+	width: 100%;
+	height: 400px;
+	background:url(../img/images/index/shengri/banner.jpg)  no-repeat  center;
+	overflow: hidden;
+}
+
+.cake{
+	width: 98%;
+	padding: 1%;
+	
+}
+.cake-name{
+	margin: 0 auto;
+	width:100px;
+	text-align: center;
+	border-bottom: 5px solid rgba(222, 173, 48, 0.5);
+}
+.cake-all{
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.cake-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 1%;
+	width: 23%;
+	overflow: hidden;
+}
+.cake-item img{
+	width: 100%;
+
+}
+.cake-item span{
+	line-height: 30px;
+}
+.cake-item span:nth-child(3){
+	color:rgb(241, 200, 138);
+}
+.cake-item .buy{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+
+}
+.cake-item .buy span,.icon-gouwucheman{
+	color:rgb(241, 200, 138);
+}

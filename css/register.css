@@ -1,0 +1,23 @@
+input{
+	padding: 3px 5px;
+}
+.fangshi h2{
+	color: #000000;
+}
+.yanzhengma{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.yanzhengma input{
+	width: 50%;
+}
+.yanzhengma button{
+	width: 40%;
+	height: 40px;
+	margin-top: 10px;
+}
+.choose{
+	align-items: center;
+	margin-top: 20px;
+}

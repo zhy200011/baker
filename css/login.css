@@ -1,0 +1,55 @@
+#wrap{
+	position: relative;
+	width: 100%;
+	height: 800px;
+	background: url(../img/images/zhuce/1.jpg) 0 -103px;
+}
+.login{
+	position: absolute;
+	right: 10%;
+	top: 20%;
+	width: 300px;
+	height: 400px;
+	padding: 20px ;
+	border: 1px solid #55f16c;
+}
+.fangshi{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #e7c9b7;
+}
+.active{
+	color: #584c45;
+}
+.shuxian{
+	width: 1px;
+	height: 16px;
+	background-color: #0077AA;
+}
+.zhanghaoinput{
+	width: 100%;
+}
+.zhanghaoinput input{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	
+}
+.click-login{
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	background-color: #000000;
+}
+.choose {
+	display: flex;
+	justify-content: space-between;
+}
+#wrap .footer{
+	position: absolute;
+	bottom: -200px;
+}

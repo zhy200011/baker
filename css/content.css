@@ -1,0 +1,220 @@
+
+/* 轮播图样式 */
+.carousel{
+	position: relative;
+	margin-top: 103px;
+	width: 94%;
+	height:612px;
+	padding: 5px 3%;
+	
+}
+.swi{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.swiperslide{
+	position: absolute;
+	width: 500%;
+
+	}
+ .img{
+	float: left;
+	width:20%;
+
+}
+
+	/* 动画过度效果 */
+.an{
+	transition: all .5s linear; 
+}
+/* 标识点 */
+.carousel-point{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+}
+
+
+.normal{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+/* 激活时样式 */
+.active{
+	background-color:#0086B3;
+}
+
+/* 专区选择 */
+.choose{
+	width: 94%;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 3%;
+}
+.choose a{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 20%;
+	height:100px;
+	margin-right: 25px;
+	margin-top: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border-radius: 5px ;
+	box-shadow: 2px 1px 2px #c8c8c8;
+}
+.chooseone{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.chooseone img{
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+}
+/* 专区内容 */
+.spacial{
+	margin-top: 15px;
+	width: 94%;
+	position: relative;
+	padding:10px 3%;
+
+}
+.spa-name{
+	margin-bottom: 10px ;
+}
+.spa-name span:first-child{
+	font-size: 20px;
+	color: rgba(238, 238, 120, 1);
+}
+.spa-one{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	overflow: hidden;
+}
+.spa-one img{
+	
+	height: 400px;
+}
+.goodsitem{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.spa-list{
+	width: 20%; 
+	margin-top: 15px;
+	height:400px;
+	background-color: #eee;
+	overflow: hidden;
+}
+/* 分割线样式 */
+.dividing-line{
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	color: peachpuff;
+	overflow: hidden;
+}
+
+.spa-list-img{
+	width: 100%;
+	height: 230px;
+	border-radius:5px 5px;
+	overflow: hidden;
+	text-align: center;
+}
+.spac-list-img img{
+	width: 100%;
+	/* height: 150px; */
+}
+.btn-learnmore{
+	width: 60px;
+	border: 1px solid peachpuff;
+	border-radius: 15px;
+	color: peachpuff;
+	text-align: center;
+	background-color: #fff;
+}
+.price{
+	padding: 0 5px;
+	color: palegoldenrod;
+}
+.price button{
+	margin-left: 15px;
+}
+	/* 被替换的样式 */
+	.be-replace{
+		
+		padding: 0 2px;
+	}
+	.be-replace p{
+		color: #6c6c6c;
+	}
+	.be-replace p:first-child{
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 500;
+		color: #000;
+	}
+	
+	/* 替换的样式 */
+	.replace{
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0 10px;
+	}
+	.weight{
+		width: 100%;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+	.weight-item{
+		border: 1px solid #000000;
+		color: darkolivegreen;
+		margin-left: 5px;
+	}
+	.weight-item span{
+		padding: 5px;
+	}
+	.weightActive{
+	color: #d3dc71;
+	}
+	/* 购买 */
+	.normal-buy{
+		padding: 5px;
+		border: 0 ;
+		background-color: #fff;
+		color: darkolivegreen;
+	}
+	.buy{
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+	/* 按钮激活时样式 */
+	.btn-joincar{
+		
+		padding: 3px;
+		border: 0;
+		background-color: darkgreen;
+		color: #fff;
+		}

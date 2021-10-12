@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新品</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="img/pic/download/font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/newGoods.css"/>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="wrap">
+			<!-- 导航栏 -->
+			<div class="nav-bar">
+				<div class="left">
+					<!-- logo -->
+					<div class="logo">
+						<div class="logo-img">
+							<a href="index.html">	<img src="img/pic/click/logo.png" ></a>
+						</div>
+						<div class="logo-text">
+							<h4>bakery</h4>
+							<h4>bakery.com</h4>
+						</div>
+					</div>
+					<!-- 导航文字 -->
+					<div>
+						<a href="content.html">	<span>首页</span></a>
+					</div>
+				<div>
+					<a href="cake.html"><span>蛋糕</span></a>
+				</div>
+				<div>
+					<a href="mianbao.html"><span>面包</span></a>
+				</div>
+					<div>
+						<span>企业专区</span>
+					</div>
+					<div>
+						<span>两小时急速</span>
+					</div>
+				</div>
+				<div class="right">
+					<div>
+						<span>app下载</span>
+					</div>
+				<!-- 选择地点 -->
+					<div>
+						<select name="city" v-model="city" @change="changeCity()">
+							<option value="北京">北京</option>
+							<option value="上海">上海</option>
+							<option value="成都">成都</option>
+							<option value="深圳">深圳</option>
+							<option value="广州">广州</option>
+						</select>
+					</div>
+					<!-- 消息 -->
+					<div >
+						<span>消息</span>
+					</div>
+					<div >
+					<a href="login.html">	<span >注册/登录</span></a>
+					</div>
+					<div >
+						<span>购物车</span>
+					</div>
+				</div>
+			</div>
+			<!-- 横幅 -->
+			<div class="shengri-banner"></div>
+			<!-- 详情专栏 -->
+			<div class="cake" v-for="i in cake">
+				<div class="cake-name">
+					<h4>{{i.englishName}}/{{i.chinaName}}</h4>
+				</div>
+				
+				<div class="cake-all" >
+					<div class="cake-item" v-for=" item in i.cakeitem">
+						<a href="details.html?key=ertong"><img :src="item.imgUrl" ></a>
+						<span>{{item.itemName}}</span>
+						<span>￥198/454g(1.0磅)</span>
+						<div class="buy">
+							<div class="iconfont icon-gouwucheman"></div>
+							<span>加入购物车</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-left">
+					<div class="footer-logo">
+						<div class="footer-logo-one">
+						<img src="img/pic/click/logo.png" >
+						<span>bakery</span>
+						</div>
+						<div >
+							<p>始终提供让人美好的蛋糕</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="footer-left-one">
+					<h6>关于我们</h6>
+					<div class="footer-lianxi">
+						<h6>联系我们</h6>
+						<p>订购专线：13568147515</p>
+						<p>团购专线：13228149195</p>
+						<p>客服电话：021-54848（全国）</p>
+					</div>
+					<h6>订购帮助</h6>
+					<h6>企业合作</h6>
+					<h6>生产经营资质</h6>
+					<h6>公告专区</h6>
+				</div>
+				<div class="footer-left-two">
+					<h6>订购时间</h6>
+					<div class="footer-time">
+						<p>成都/广州：提前5小时预定；</p>
+						<p>北京：提前6小时预定；</p>
+						<p>偏远地区：提前8小时预定；</p>
+					</div>
+				</div>
+				<div class="footer-left-three">
+					<h6>网络运营</h6>
+					<div class="footer-pos">
+						<p>基于vue框架开发</p>
+						<p>暂无开发计划</p>
+						<p>联系方式为false，请不要尝试</p>
+						<p>欢迎合作</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		</div>
+		<script src="./js/shengri.js" type="text/javascript" charset="utf-8"></script>
+		
+	</body>
+</html>
